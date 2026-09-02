@@ -1,0 +1,8 @@
+{
+  // O projeto typecheca com o TypeScript do node_modules (6.0.3).
+  // Sem isso o VSCode usa a versão embutida e o Volar pode não resolver
+  // os componentes auto-importados do Nuxt (.nuxt/types/components.d.ts).
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.tsserver.maxTsServerMemory": 8192
+}
