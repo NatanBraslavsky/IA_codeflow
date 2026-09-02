@@ -153,8 +153,8 @@ app/
 │   │                 OnboardingResultItem
 │   ├── dashboard/    DashboardSidebar, DashboardMetric, DashboardIssueRow,
 │   │                 DashboardActivity, DashboardFixModal
-│   ├── TheHeader.vue
-│   └── TheFooter.vue
+│   ├── Header.vue
+│   └── Footer.vue
 ├── constants/        landing.ts, onboarding.ts, dashboard.ts — todo o conteúdo mockado
 ├── layouts/          default (header+footer), dashboard (sidebar), blank (login)
 ├── pages/            index, onboarding, dashboard, login

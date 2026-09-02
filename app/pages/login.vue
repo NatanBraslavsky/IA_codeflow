@@ -10,10 +10,10 @@
   <div class="relative flex min-h-screen items-center justify-center overflow-hidden p-6">
     <div class="pointer-events-none absolute inset-0 grid-backdrop opacity-25" />
     <div
-      class="pointer-events-none absolute top-1/2 left-1/2 size-[700px] max-w-full -translate-x-1/2 -translate-y-1/2 accent-glow" />
+      class="pointer-events-none absolute top-1/2 left-1/2 size-175 max-w-full -translate-x-1/2 -translate-y-1/2 accent-glow" />
 
     <form
-      class="relative z-2 w-full max-w-[420px] rounded-[18px] border border-edge bg-panel/92 p-8 shadow-[0_20px_70px_rgba(0,0,0,0.5)] backdrop-blur-xl sm:p-11"
+      class="relative z-2 w-full max-w-105 rounded-[18px] border border-edge bg-panel/92 p-8 shadow-[0_20px_70px_rgba(0,0,0,0.5)] backdrop-blur-xl sm:p-11"
       @submit.prevent>
       <NuxtLink
         to="/"
