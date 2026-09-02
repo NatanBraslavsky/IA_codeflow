@@ -1,0 +1,43 @@
+{
+  "name": "portfolio_natan",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "postinstall": "nuxt prepare",
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "fmt": "oxfmt --check",
+    "fmt:fix": "oxfmt",
+    "lint": "oxlint --type-aware",
+    "lint:fix": "oxlint --type-aware --fix",
+    "typecheck": "bun run gentypes && bun install && nuxi typecheck",
+    "prerelease": "bun run fmt && bun run lint && bun run typecheck",
+    "prerelease:fix": "bun run fmt:fix && bun run lint:fix && bun run typecheck"
+  },
+  "dependencies": {
+    "@nuxt/a11y": "^1.0.0-alpha.1",
+    "@nuxt/eslint": "1.16.0",
+    "@nuxt/hints": "^1.1.3",
+    "@nuxt/ui": "^4.9.0",
+    "@nuxtjs/seo": "^5.3.2",
+    "@takumi-rs/core": "^2.0.0-rc.16",
+    "@vueuse/nuxt": "^14.3.0",
+    "nuxt": "^4.4.8",
+    "nuxt-security": "^2.6.0",
+    "tailwindcss": "^4.3.2",
+    "valibot": "^1.4.2",
+    "vue": "^3.5.39",
+    "vue-router": "^5.1.0"
+  },
+  "devDependencies": {
+    "@dethdkn/ox-config": "^1.0.23",
+    "vue-tsc": "^3.3.6"
+  },
+  "packageManager": "bun@1.3.11",
+  "trustedDependencies": [
+    "@parcel/watcher",
+    "esbuild",
+    "sharp",
+    "vue-demi"
+  ]
+}
